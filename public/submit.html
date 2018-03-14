@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+	<title>Project: Boardgame</title> 
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="graphics/favicon.ico" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="submit.js"></script>
+</head>
+<body>
+	<div id="header">
+		<h1> PBG </h1>
+	</div>
+	<div id="menu-bar">
+		<a href = "about.html">About</a>
+		<a href = "submit.html">Submit</a>
+		<a href = "index.html">Home</a>
+	</div>
+	<div id="submit-content">
+		<p>
+			Submit your novel idea for a card on project: boardgame!
+		</p>
+		<p>
+			<form id="submit-form" action="/card" method="post">
+			  Space Title:<br>
+			  <input id="title-input" type="text" name="title"> 
+			  <br>
+			  Scenario:<br>
+			  <textarea id="scenario-input" name="scenario" cols="40" rows="10" ></textarea>
+			  <br>
+			  <input type="submit" value="Submit">
+			</form> 
+		</p>
+		
+	</div>
+	<div id="footer">
+		<p>
+			Contact me: projectbgame@gmail.com
+		</p>
+	</div>
+</body>
+</html> 
